@@ -1,0 +1,91 @@
+body {
+ 
+    font-family: Arial, sans-serif;
+
+    background-color: #0d1117;
+
+    margin: 0;
+    
+    padding: 20px;
+
+}
+
+
+.container {
+    max-width: 600px;
+
+    margin: 0 auto; 
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+
+    color: #2c3e50;
+
+   margin-bottom: 30px;
+
+
+}
+
+#taskInput {
+
+width: 70%;
+
+padding: 12px;
+
+font-size: 16px;
+
+border: 2px solid #ddd;
+
+border-radius: 5px;
+
+}
+#addBtn {
+
+width: 25%;
+
+padding: 9px;
+
+font-size: 16px;
+
+background-color: #030308;
+
+color: white;
+
+border: none;
+
+border-radius: 5px;
+
+cursor: pointer;
+
+}
+
+#taskList {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin-top: 20px;
+
+}
+
+#taskList li {
+  
+background-color: #f8f9fa;
+
+padding: 15px;
+
+margin-bottom: 10px;
+
+border-radius: 5px; 
+
+border-left: 4px solid #000000;
+
+}
